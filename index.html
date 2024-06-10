@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula 8</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<style>
+    h1{
+        border-style: solid;
+        border-width: 2pt;
+        background-color: cyan;
+        text-align: center;
+    }
+ img.grande{
+display:block;
+border-style: solid;
+position: relative;
+margin: auto;
+border-radius: 50pt;
+filter: drop-shadow
+(10px 10px 10px 
+black);
+ }
+ img.media{
+    display: block;
+    max-width: 100%;
+    border-style: solid;
+    position: relative;
+    margin: auto;
+    border-radius: 30pt;
+    filter: drop-shadow(10px 10px 10px 
+    black);
+ }
+
+    }
+</style>
+<body>
+<h1>Responsavidade de web sites e centralização de imagens</h1>   
+<hr>
+ <h2>A seguir tem uma imagem de um cãozinho feliz, imagem responsiva</h2>
+ <img src="imagens/cao 1200.jpg" class="grande" alt="cão feliz" width="100%">
+ <hr>
+ <h3>a imagem a seguir é uma imagem que tera no máximo uma largura igual a largura original, propriedade css max-width</h3>
+ <img src="imagens/cao 3.1.jpg" class="media" alt="cão correndo">
+ <hr>
+ <h3>A imagem a seguir tem uma largura fixa, tem legenda e não é responsiva</h3>
+<figure><img src="imagens/cao 1200.jpg" class="fixa" alt="cão feliz"> 
+    <caption>Cão com borboleta</caption> </figure>
+    <hr>
+</body>
+</html>
